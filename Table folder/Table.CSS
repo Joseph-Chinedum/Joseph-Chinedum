@@ -1,0 +1,32 @@
+body {
+    background-color: #8F8681;}
+    a {
+        font-size: 20px;
+        color: white;
+        font-weight: 200px;
+        margin: 1.5re;
+     }
+    
+     nav ul {
+        margin: 1.7rem;
+        font-size: 25px;
+        color: white;}
+table {
+    width: 1000px;
+    padding: 1rem;
+    margin: 1.5em 3em 1.5em;
+    background-color: #E1DCD9;
+    /* color: antiquewhite; */
+    border: 2px;
+    height: 300px;
+    border-collapse: collapse;
+    
+}
+thead {
+    text-align: center;
+}
+table thead td, tbody th, tbody td {
+    border: 1.5px solid black;
+   font-size: 23px;
+   padding: 1rem;
+}
