@@ -11,14 +11,13 @@ body {
         margin: 1.7rem;
         font-size: 25px;
         color: white;}
-table {
-    width: 1000px;
+/* table {
+    width: 80%;
     padding: 1rem;
-    margin: 1.5em 3em 1.5em;
+    margin: auto;
     background-color: #E1DCD9;
     /* color: antiquewhite; */
-    border: 2px;
-    height: 300px;
+    /* border: 2px;
     border-collapse: collapse;
     
 }
@@ -27,6 +26,29 @@ thead {
 }
 table thead td, tbody th, tbody td {
     border: 1.5px solid black;
-   font-size: 23px;
+   font-size:;
    padding: 1rem;
+} */ 
+table {
+    width: 90%;
+    border-collapse: collapse;
+    background-color: #E1DCD9;
+    margin-left: 20px;
+    
+  }
+
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+   
+  }
+
+  /* Make the table container scrollable on smaller screens */
+  .table-container {
+    overflow-x: auto;
+  }
+h1 {
+    text-align: center;
+    color: white;
 }

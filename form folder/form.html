@@ -4,50 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/form folder/form.css">
 </head>
 <body>
-<nav id="backtotop">
-    <ul>
-        <li> <a href="/Media folder/media.html">Media</a></li>
-        <li> <a href="/Table folder/Table.html">Courses</a></li>
-        <li> <a href="/Biography/index.html">Biography</a></li>
-     </ul>
-</nav>
+    <nav id="backtotop">
+        <ul>
+            <li> <a href="/Media folder/media.html">Media</a></li>
+            <li> <a href="/Table folder/Table.html">Courses</a></li>
+            <li> <a href="/Biography/index.html">Biography</a></li>
+         </ul>
+    </nav>
+    <div class="general-container">
+
+<div class="picture-container">
 
     <img src="/Assets/alt school first assignment..png" alt="Learn at altschool" height="640" width="519"> 
-    <h1>Learn highly sought <br> after skill without  <br> hassle.</h1>
+    <h1>Learn highly sought<br>after skill without  <br> hassle.</h1> </td> </tr>
+    <footer>
+        <!-- <section>
+        <p>
+            By clicking continue, I agree to Terms of Use and acknowledgement that I have read the Privacy Policy.
+            </p>
+        <p>
+            <button type="submit">submit</button>
+        </p>
+    </section> -->
     
+        <section>
+            <h5>Tel: 0800ALTSCHOOL</h5> 
+            <h5>©2024 AltSchool Africa. All rights reserved.</h5>
+        </section>
+        <a href="#backtotop" class="back-to-top">back to top</a>
+    </footer>
+    
+   
+</div>
 
-<section>
+
+
+<div class="from-container">    
 <h2>Signup</h2>
 
-
 <p>Take the next steps to apply at AltSchool Africa</p>
-   <p> <label for="First name">First Name</label> <br>
-    <input type="text" placeholder="Enter first name" required id="First name"> </p>
-    
-   <p> <label for="Last Name">Last Name</label> <br>
-    <input type="text" placeholder="Enter last name" required id="Last Name"> </p>
 
-   <p> <label for="Gender">Gender</label> <br>
+  <table> 
+    <tr>
+        <td><p> <label for="First name">First Name</label> <br>
+    <input type="text" placeholder="Enter first name" required id="First name"> </p></td>
+    
+ <td> <p> <label for="Last Name">Last Name</label> <br>
+    <input type="text" placeholder="Enter last name" required id="Last Name"> </p></td></tr>
+
+ <tr>
+    <td> <p> <label for="Gender">Gender</label> <br>
    <select name="gender" id="Gender" aria-placeholder="Select gender">
     <optgroup >
         <option value="Male">Male</option>
         <option value="Female">Female</option>
     </optgroup>
-   </select>
+   </select></td>
 
-   <p> <label for="Date of Birth">Date of Birth</label> <br>
-    <input type="date"  required id="Date of Birth"> </p>
+ <td> <p> <label for="Date of Birth">Date of Birth</label> <br>
+    <input type="date"  required id="Date of Birth"> </p></td></tr>
 
-   <p> <label for="Email Address">Email Address</label> <br>
-    <input type="email"  required id="Email Address" placeholder="Enter email address"> </p>
 
-   <p> <label for="Phone Number">Phone Number</label> <br>
-    <input type="number"  required id="Phone Number" placeholder="08154387000" class="required"> </p>
 
-   <p><label for="country">Country</label> <br>
-    <select id="country" name="country" >
+ <tr> 
+    <td><p> <label for="Email Address">Email Address</label> <br>
+    <input type="email"  required id="Email Address" placeholder="Enter email address"> </p></td>
+
+  <td> <p> <label for="Phone Number">Phone Number</label> <br>
+    <input type="number"  required id="Phone Number" placeholder="08154387000" class="required"> </p></td>
+</tr>
+
+  <tr>
+    <td><p><label for="country1">Country</label> <br>
+    <select id="country1" name="country">
         <option value="AF">Afghanistan</option>
         <option value="AL">Albania</option>
         <option value="DZ">Algeria</option>
@@ -200,15 +232,16 @@
         <option value="NA">Namibia</option>
         <option value="NR">Nauru</option>
         <option value="NP">Nepal</option>
-        </select>
+        </select> </td>
     
 
-    <div>
+    <td><p>
          <label for="State">StateCity of Residence</label>  <br>
-        <input type="text" id="State" placeholder="Enter your of residence">
-    </div>
-        
-          <p> <label for="Hear">How did you hear about us?</label> <br>
+        <input type="text" id="State" placeholder="Enter your of residence"> 
+    </p></td></tr>
+
+       <!-- <tr> 
+        <td>><p><label for="Hear">How did you hear about us?</label> <br>
             <select name="Hear" id="Hear">
                 <optgroup>
                     <option value="Media">Facebook</option>
@@ -221,33 +254,17 @@
                     <option value="Media">Sales Officer</option>
                     <option value="Media">Other</option>
                 </optgroup>
-            </select>
-        </p>
-       
-        <p> <label for="Password">Password</label> <br>
-            <input type="password" placeholder="Enter password" required id="Password"> </p>
+            </select></p></td</tr> -->
+          <tr> 
+            <td> <p>  <label for="Password">Password</label> <br>
+                <input type="password" placeholder="Enter password" required id="Password"></p></td>
 
-        <p> <label for="Enter Password">Comfirm Password</label> <br>
+    <td>   <p> <label for="Enter Password">Comfirm Password</label> <br>
             <input type="password" placeholder="Enter password again" required id="Enter Password"> </p>
+        </table></td></tr>
         
-</section>
+       </div>
 
-<footer>
-    <section>
-    <p>
-        By clicking continue, I agree to Terms of Use and acknowledgement that I have read the Privacy Policy.
-        </p>
-    <p>
-        <button type="submit">submit</button>
-    </p>
-</section>
-
-    <section>
-        <h5>Tel: 0800ALTSCHOOL</h5> 
-        <h5>©2024 AltSchool Africa. All rights reserved.</h5>
-    </section>
-</footer>
-
-<a href="#backtotop">back to top</a>
+</div>
 </body>
 </html>

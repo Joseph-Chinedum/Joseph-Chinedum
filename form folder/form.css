@@ -1,0 +1,59 @@
+.general-container {
+    
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-evenly;
+        gap: 20px; /* Space between image and form */
+      background-color:  #E1DCD9;
+    border-radius: 2%;
+ margin: 2rem;  }
+ @media (max-width: 768px) {
+  .general-container {
+    flex-direction: column; /* Stacks the image and form vertically */
+    align-items: center;    /* Centers the content */
+  }
+
+  .picture-container img {
+    max-width: 90%; /* Makes the image smaller on small screens */
+  }
+  table {
+    overflow-x: auto;
+    width: 90%;
+  }
+}
+
+      body {
+        background-color: #8F8681;
+      }
+      nav ul {
+        margin: 1.7rem;
+        font-size: 25px;
+        color: white;
+      }
+      a {
+        font-size: 20px;
+        color: white;
+        font-weight: 200px;
+        margin: 1.5re;
+     }
+     h1 {
+      text-align: center;
+      font-size: 40px;
+     }
+     h5 {
+      text-align: center;
+     }
+     input,select {
+      width: 250px;
+      height: 40px;
+      padding: 10%;
+      font-size: 16px;
+      border: 1px solid black;
+      border-radius: 10px;
+      box-sizing: border-box;
+      background-color: #fcf8f6;
+     }
+     tr td {
+      justify-content: space-between;
+     }
+        
