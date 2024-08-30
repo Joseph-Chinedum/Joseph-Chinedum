@@ -5,8 +5,9 @@
         justify-content: space-evenly;
         gap: 20px; /* Space between image and form */
       background-color:  #E1DCD9;
-    border-radius: 2%;
- margin: 2rem;  }
+      border: 2px;
+      border-radius: 20px;
+   }
 
  @media (max-width: 768px) {
   .general-container {
